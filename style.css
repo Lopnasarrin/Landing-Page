@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text: 1.5rem;
+    --head: calc(1rem + 2vw)
+}
+
+body {
+    font-family: 'Style Script', cursive;
+}
+
+.hero-section{
+    min-height: 100vh;
+    background: url(https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 1.5rem;
+    color: white;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+.hero-text{
+    color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+  }
+
+  footer{
+      position: fixed;
+      bottom: 0px;
+      height: 250px;
+      width: 100%;
+      background: black;
+  }
+  .main-content{
+      display: flex;
+  }
+  .main-content .box{
+      flex-basis: 50%;
+      padding: 10px 20px;
+      color: white;
+  }
+  .box h2{
+      font-size: 1.125rem;
+      font-weight: 100;
+      text-transform: uppercase;
+  }
+  .box .content{
+      margin: 20px 0 0 0;
+  }
+  .left .content p{
+      text-align: justify;
+  }
+  .left .content .social{
+      margin: 20px 0 0 0;
+
+  }
+  .left .content .social a{
+      padding: 0 2px;
+  }
+  
+  .left .content .social a span:hover{
+      background: #f12020;
+    
+  }
+  .bottom center{
+      padding: 5px;
+      font-size: 0.9375rem;
+      background: #151515;
+  }
+  .bottom center span{
+    
+    color: #656565;
+}
+.bottom center a{
+    
+    color: #f12020;
+    text-decoration: none;
+}
+.bottom center a:hover{
+    
+    text-decoration: underline;
+}
+  .hero-text h{
+    font-size: var(--head);
+}
